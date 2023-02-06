@@ -169,14 +169,22 @@ nav {
 }
 
 /* Aside, detalle del producto en carrito de compras */
-.aside{
+#shoppingCartContainer{
+    position: absolute;
+    right: 0;
+    background: var(--white);
+    padding: 0 24px;  
+    box-sizing: border-box;
+
+}
+/* .aside{
     background: var(--white);
     width: 360px;
     padding: 0 24px;   
     box-sizing: border-box;
     position: absolute;  
     right: 0;       
-       }
+       } */
 .title-container {
     display: flex;
         }  
@@ -382,12 +390,15 @@ nav {
         width: 140px;
     }
     .product-card img {
-            width: 140px;
-            height: 140px;
+        width: 140px;
+        height: 140px;
     }
 
     .product-detail {
-            width: 100%;
+        width: 100%;
+    }
+    #shoppingCartContainer{
+        width: 100%;
     }
      
 }
