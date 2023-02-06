@@ -68,9 +68,6 @@ function closeProductDetailAside(){
     productDetailContainer.classList.add('inactive')
 }
 
-
-
-
 // Product Cards
 
 productList.push({
@@ -79,15 +76,25 @@ productList.push({
     image: 'https://images.pexels.com/photos/1149601/pexels-photo-1149601.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
 })
 productList.push({
-    name: 'Pink Scooter',
-    price: 2800,
+    name: 'Bike',
+    price: 120,
     image: 'https://images.pexels.com/photos/1149601/pexels-photo-1149601.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
 })
 productList.push({
-    name: 'Camera',
-    price: 800,
+    name: 'Bike',
+    price: 120,
     image: 'https://images.pexels.com/photos/1149601/pexels-photo-1149601.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500',
 })
+// productList.push({
+//     name: 'Pink Scooter',
+//     price: 2800,
+//     image: 'https://images.pexels.com/photos/2406778/pexels-photo-2406778.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+// })
+// productList.push({
+//     name: 'Camera',
+//     price: 800,
+//     image: 'https://images.pexels.com/photos/13782612/pexels-photo-13782612.jpeg',
+// })
 
 function renderProducts(arr){
     for (product of arr){
