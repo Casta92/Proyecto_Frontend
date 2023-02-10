@@ -6,9 +6,7 @@ const menuCarritoIcon = document.querySelector('.navbar-shopping-cart');
 const detalleProductosCarrito = document.querySelector('#shoppingCartContainer');
 const cardsContainer = document.querySelector('.cards-container');
 const productDetailContainer = document.querySelector('#productDetail')
-const productDetailClose = document.querySelector('.product-detail-close')
-
-
+const productDetailClose = document.querySelector('.product-detail-close');
 
 const productList = [];
 
